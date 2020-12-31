@@ -2,7 +2,7 @@ Automated Elastic Stack Deployment
 
 The files in this repository were used to configure the network depicted below.
 
-https://drive.google.com/open?id=1-S7VGrmGlLlKzF0Symrh-BDR1c4CJfGa&authuser=jfuqua2186%40gmail.com&usp=drive_fs
+![alt text](https://drive.google.com/open?id=1-S7VGrmGlLlKzF0Symrh-BDR1c4CJfGa&authuser=jfuqua2186%40gmail.com&usp=drive_fs)
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the ElkStack file may be used to install only certain pieces of it, such as Filebeat.
 
