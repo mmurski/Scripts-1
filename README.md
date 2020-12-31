@@ -37,7 +37,7 @@ Access Policies
 
 The machines on the internal network are not exposed to the public Internet.
 
-Only the _____ machine can accept connections from the Internet. Access to this machine is only allowed from the following IP addresses:
+Only the JumpBox machine can accept connections from the Internet. Access to this machine is only allowed from the following IP addresses:
 
 TODO: Add whitelisted IP addresses
 Machines within the network can only be accessed by _____.
