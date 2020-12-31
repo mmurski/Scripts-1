@@ -2,11 +2,11 @@ Automated Elastic Stack Deployment
 
 The files in this repository were used to configure the network depicted below.
 
-https://github.com/jfuqua86/Scripts/tree/main/Ansible
+https://drive.google.com/open?id=1-S7VGrmGlLlKzF0Symrh-BDR1c4CJfGa&authuser=jfuqua2186%40gmail.com&usp=drive_fs
 
-These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the _____ file may be used to install only certain pieces of it, such as Filebeat.
+These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the ElkStack file may be used to install only certain pieces of it, such as Filebeat.
 
-TODO: Enter the playbook file.
+FileBeat-Config:.
 This document contains the following details:
 
 Description of the Topology
@@ -19,7 +19,7 @@ Description of the Topology
 
 The main purpose of this network is to expose a load-balanced and monitored instance of DVWA, the D*mn Vulnerable Web Application.
 
-Load balancing ensures that the application will be highly _____, in addition to restricting _____ to the network.
+Load balancing ensures that the application will be highly efficient, in addition to restricting overloads to the network.
 
 TODO: What aspect of security do load balancers protect? What is the advantage of a jump box?
 Integrating an ELK server allows users to easily monitor the vulnerable VMs for changes to the _____ and system _____.
