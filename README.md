@@ -30,10 +30,10 @@ The configuration details of each machine may be found below. Note: Use the Mark
 
 | Name	  | Function	| IP Address	| Operating System
 |-------- |:---------:| :----------:|-----------------:|
-|Jump Box	| Gateway	  |  10.0.0.1	  |       Linux|
-|Web 1		|
-|Web 2		|	
-|ElkStack	|		
+|Jump Box	| Gateway	  |  10.0.0.4	  |       Linux      |
+|Web 1		| Virtual Machine | 10.0.0.7 | Ubuntu | 
+|Web 2		|	Virtual Machine | 10.0.0.8 | Ubuntu |
+|ElkStack	|	Virtual Machine | 10.1.0.4 | Ubuntu |
 Access Policies
 
 The machines on the internal network are not exposed to the public Internet.
