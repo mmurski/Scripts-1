@@ -21,8 +21,7 @@ The main purpose of this network is to expose a load-balanced and monitored inst
 
 Load balancing ensures that the application will be highly efficient, in addition to restricting overloads to the network.
 
-TODO: What aspect of security do load balancers protect? What is the advantage of a jump box?
-Integrating an ELK server allows users to easily monitor the vulnerable VMs for changes to the _____ and system _____.
+Load balancers defend organizations against DDos attacks by shifting attack traffic away from the corporate server towards a public cloud.   A jump box provides a buffer by being an origination point for admins running tasks.  Integrating an ELK server allows users to easily monitor the vulnerable VMs for changes to the logs and system traffic.
 
 Filebeat watches and monitors log files for anomalies and sends data to pre determined location for review.
 Metricbeat is installed on the server and monitors operating system changes.
@@ -34,7 +33,8 @@ The configuration details of each machine may be found below. Note: Use the Mark
 |Web 1		| Virtual Machine | 10.0.0.7 | Ubuntu | 
 |Web 2		|	Virtual Machine | 10.0.0.8 | Ubuntu |
 |ElkStack	|	Virtual Machine | 10.1.0.4 | Ubuntu |
-Access Policies
+
+Access Policies:
 
 The machines on the internal network are not exposed to the public Internet.
 
