@@ -2,7 +2,7 @@ Automated Elastic Stack Deployment
 
 The files in this repository were used to configure the network depicted below.
 
-![alt text](https://drive.google.com/open?id=1-S7VGrmGlLlKzF0Symrh-BDR1c4CJfGa&authuser=jfuqua2186%40gmail.com&usp=drive_fs)
+![alt text]
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the ElkStack file may be used to install only certain pieces of it, such as Filebeat.
 
@@ -24,15 +24,16 @@ Load balancing ensures that the application will be highly efficient, in additio
 TODO: What aspect of security do load balancers protect? What is the advantage of a jump box?
 Integrating an ELK server allows users to easily monitor the vulnerable VMs for changes to the _____ and system _____.
 
-TODO: What does Filebeat watch for?
-TODO: What does Metricbeat record?
+Filebeat watches and monitors log files for anomalies and sends data to pre determined location for review.
+Metricbeat is installed on the server and monitors operating system changes.
 The configuration details of each machine may be found below. Note: Use the Markdown Table Generator to add/remove values from the table.
 
-Name	Function	IP Address	Operating System
-Jump Box	Gateway	10.0.0.1	Linux
-TODO			
-TODO			
-TODO			
+| Name	  | Function	| IP Address	| Operating System
+|-------- |:---------:| :----------:|-----------------:|
+|Jump Box	| Gateway	  |  10.0.0.1	  |       Linux|
+|Web 1		|
+|Web 2		|	
+|ElkStack	|		
 Access Policies
 
 The machines on the internal network are not exposed to the public Internet.
