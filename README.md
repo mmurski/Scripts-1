@@ -30,9 +30,9 @@ The configuration details of each machine may be found below. Note: Use the Mark
 | Name	  | Function	| IP Address	| Operating System
 |-------- |:---------:| :----------:|-----------------:|
 |Jump Box	| Gateway	  |  10.0.0.4	  |       Linux      |
-|Web 1		| Virtual Machine | 10.0.0.7 | Ubuntu | 
-|Web 2		|	Virtual Machine | 10.0.0.8 | Ubuntu |
-|ElkStack	|	Virtual Machine | 10.1.0.4 | Ubuntu |
+|Web 1		| Virtual Machine | 10.0.0.7 | Linux | 
+|Web 2		|	Virtual Machine | 10.0.0.8 | Linux |
+|ElkStack	|	Virtual Machine | 10.1.0.4 | Linux |
 
 Access Policies:
 
@@ -46,13 +46,15 @@ Machines within the network can only be accessed by _____.
 TODO: Which machine did you allow to access your ELK VM? What was its IP address?
 A summary of the access policies in place can be found in the table below.
 
-Name	Publicly Accessible	Allowed IP Addresses
-Jump Box	Yes/No	10.0.0.1 10.0.0.2
-Elk Configuration
+
+| Name	| Publicly Accessible	 | Allowed IP Addresses
+| ------| :------------------: | -------------------: |
+| JumpBoxProvisioner	| Yes      |  52.168.5.47
+|ElkStackVM | Yes     |     40.75.18.92
 
 Ansible was used to automate configuration of the ELK machine. No configuration was performed manually, which is advantageous because...
 
-TODO: What is the main advantage of automating configuration with Ansible?
+It allows admins to automate monotonous tasks to free time for more important items.
 The playbook implements the following tasks:
 
 TODO: In 3-5 bullets, explain the steps of the ELK installation play. E.g., install Docker; download image; etc.
