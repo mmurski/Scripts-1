@@ -58,11 +58,12 @@ It allows admins to automate monotonous tasks to free time for more important it
 The playbook implements the following tasks:
 
 TODO: In 3-5 bullets, explain the steps of the ELK installation play. E.g., install Docker; download image; etc.
-1
-2
-3
-4
-5
+1.
+2.
+3.
+4.
+5.
+
 The following screenshot displays the result of running docker ps after successfully configuring the ELK instance.
 
 TODO: Update the path with the name of your screenshot of docker ps output
