@@ -50,14 +50,16 @@ A summary of the access policies in place can be found in the table below.
 | Name	| Publicly Accessible	 | Allowed IP Addresses
 | ------| :------------------: | -------------------: |
 | JumpBoxProvisioner	| Yes      |  52.168.5.47
-|ElkStackVM | Yes     |     40.75.18.92
+|ElkStackVM | No     |     40.75.18.92    |
+|Web 1      | No     | 10.0.0.7    |
+|Web 2      | No     | 10.0.0.8    |
 
 Ansible was used to automate configuration of the ELK machine. No configuration was performed manually, which is advantageous because...
 
 It allows admins to automate monotonous tasks to free time for more important items.
 The playbook implements the following tasks:
 
-TODO: In 3-5 bullets, explain the steps of the ELK installation play. E.g., install Docker; download image; etc.
+Steps of the ELK installation play. 
 * Navigate into jumpbox through SSH 
 * curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
 * sudo apt-get update
@@ -75,27 +77,29 @@ Target Machines & Beats
 
 This ELK server is configured to monitor the following machines:
 
-TODO: List the IP addresses of the machines you are monitoring
 We have installed the following Beats on these machines:
-
+Containers being monitored by beats:
+* DVWA 1 IP: 10.0.0.7
+* DVWA 2 IP: 10.0.0.8
 
 These Beats allow us to collect the following information from each machine:
 * Filebeat- This beat allows us to collect information about the file system.
 * Metricbeat- This beat collects data about machine metrics.
 
-TODO: In 1-2 sentences, explain what kind of data each beat collects, and provide 1 example of what you expect to see. E.g., Winlogbeat collects Windows logs, which we use to track user logon events, etc.
 Using the Playbook
 
-In order to use the playbook, you will need to have an Ansible control node already configured. Assuming you have such a control node provisioned:
+In order to use the playbook, you will need to have an Ansible control node already configured. Assuming you have such a control node provisioned: JumpBoxProvisioner is utilized
 
 SSH into the control node and follow the steps below:
 
-Copy the _____ file to _____.
-Update the _____ file to include...
-Run the playbook, and navigate to ____ to check that the installation worked as expected.
+Copy the playbook file to Ansible control node.
+Update the elk-stack file to include...
+Run the playbook, and navigate to container to check that the installation worked as expected.
 TODO: Answer the following questions to fill in the blanks:
 
-Which file is the playbook? Where do you copy it?
-Which file do you update to make Ansible run the playbook on a specific machine? How do I specify which machine to install the ELK server on versus which to install Filebeat on?
-_Which URL do you navigate to in order to check that the ELK server is running?
+install_elk.yml playbook file
+The playbook needs to be copied to the host folder on the target machine
+You must create a 'hosts' file on the specific machine you want to run the file on 
+The playbook for the elk is different than the one for filebeat which identifies which program is running ojn which machine.
+curl http://10.0.0.8:5601 which is the address for kibana to confirm if it is working correctly.
 As a Bonus, provide the specific commands the user will need to run to download the playbook, update the files, etc.
