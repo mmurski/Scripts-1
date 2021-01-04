@@ -29,8 +29,8 @@ The configuration details of each machine may be found below. Note: Use the Mark
 
 | Name	  | Function	| IP Address	| Operating System
 |-------- |:---------:| :----------:|-----------------:|
-|Jump Box	| Gateway	  |  10.0.0.4	  |       Linux      |
-|Web 1		| Virtual Machine | 10.0.0.5 | Linux | 
+|Jump Box	| Gateway	        | 10.0.0.4 | Linux |
+|Web 1		| Virtual Machine   | 10.0.0.5 | Linux | 
 |Web 2		|	Virtual Machine | 10.0.0.7 | Linux |
 |ElkStack	|	Virtual Machine | 10.1.0.4 | Linux |
 
@@ -67,9 +67,17 @@ Steps of the ELK installation play.
 * Confirm the docker is running by running code: sudo systemctl status docker
 * Copy and run this playbook: Ansible/Docker-Compose.docx  
 
+The playbook implements the following tasks: In 3-5 bullets, explain the steps of the ELK installation play. E.g., install Docker; download image; etc.
 
+Install docker.io
+Install pip3
+Install Docker python module
+Increase virtual memory
+Download and launch a docker
 
 The following screenshot displays the result of running docker ps after successfully configuring the ELK instance.
+
+
 
 TODO: Update the path with the name of your screenshot of docker ps output
 
