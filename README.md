@@ -58,11 +58,14 @@ It allows admins to automate monotonous tasks to free time for more important it
 The playbook implements the following tasks:
 
 TODO: In 3-5 bullets, explain the steps of the ELK installation play. E.g., install Docker; download image; etc.
-* 
-*
-*
-*
-*
+* Navigate into jumpbox through SSH 
+* curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+* sudo apt-get update
+* sudo apt-get install -y docker-ce
+* Confirm the docker is running by running code: sudo systemctl status docker
+* Copy and run this playbook: Ansible/Docker-Compose.docx  
+
+
 
 The following screenshot displays the result of running docker ps after successfully configuring the ELK instance.
 
