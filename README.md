@@ -43,7 +43,7 @@ Only the JumpBox machine can accept connections from the Internet. Access to thi
 
 Machines within the network can only be accessed by SSH.
 
-TODO: Which machine did you allow to access your ELK VM? What was its IP address?
+The ElkStackVM can access at IP address 40.75.18.92
 A summary of the access policies in place can be found in the table below.
 
 
@@ -58,11 +58,11 @@ It allows admins to automate monotonous tasks to free time for more important it
 The playbook implements the following tasks:
 
 TODO: In 3-5 bullets, explain the steps of the ELK installation play. E.g., install Docker; download image; etc.
-1.
-2.
-3.
-4.
-5.
+* 
+*
+*
+*
+*
 
 The following screenshot displays the result of running docker ps after successfully configuring the ELK instance.
 
