@@ -67,11 +67,13 @@ Steps of the ELK installation play.
 * Confirm the docker is running by running code: sudo systemctl status docker
 * Copy and run this playbook: Ansible/Docker-Compose.docx  
 
-
+Install docker.io
+Install pip3
+Install Docker python module
+Increase virtual memory
+Download and launch a docker
 
 The following screenshot displays the result of running docker ps after successfully configuring the ELK instance.
-
-TODO: Update the path with the name of your screenshot of docker ps output
 
 Target Machines & Beats
 
