@@ -97,9 +97,9 @@ Update the elk-stack file to include...
 Run the playbook, and navigate to container to check that the installation worked as expected.
 
 
-*Install_elk.yml playbook file
-*The playbook needs to be copied to the host folder on the target machine
-*You must create a 'hosts' file on the specific machine you want to run the file on 
-*The playbook for the elk is different than the one for filebeat which identifies which program is running ojn which machine.
-*Curl http://10.0.0.8:5601 which is the address for kibana to confirm if it is working correctly.
-*As a Bonus, provide the specific commands the user will need to run to download the playbook, update the files, etc.
+* Install_elk.yml playbook file
+* The playbook needs to be copied to the host folder on the target machine
+* You must create a 'hosts' file on the specific machine you want to run the file on 
+* The playbook for the elk is different than the one for filebeat which identifies which program is running ojn which machine.
+* Curl http://10.0.0.8:5601 which is the address for kibana to confirm if it is working correctly.
+* As a Bonus, provide the specific commands the user will need to run to download the playbook, update the files, etc.
