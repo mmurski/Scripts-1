@@ -30,8 +30,8 @@ The configuration details of each machine may be found below. Note: Use the Mark
 | Name	  | Function	| IP Address	| Operating System
 |-------- |:---------:| :----------:|-----------------:|
 |Jump Box	| Gateway	  |  10.0.0.4	  |       Linux      |
-|Web 1		| Virtual Machine | 10.0.0.7 | Linux | 
-|Web 2		|	Virtual Machine | 10.0.0.8 | Linux |
+|Web 1		| Virtual Machine | 10.0.0.5 | Linux | 
+|Web 2		|	Virtual Machine | 10.0.0.7 | Linux |
 |ElkStack	|	Virtual Machine | 10.1.0.4 | Linux |
 
 Access Policies:
@@ -49,10 +49,10 @@ A summary of the access policies in place can be found in the table below.
 
 | Name	| Publicly Accessible	 | Allowed IP Addresses
 | ------| :------------------: | -------------------: |
-| JumpBoxProvisioner	| Yes      |  52.168.5.47
+| JumpBoxProvisioner	| Yes      |  52.146.40.102
 |ElkStackVM | No     |     40.75.18.92    |
-|Web 1      | No     | 10.0.0.7    |
-|Web 2      | No     | 10.0.0.8    |
+|Web 1      | No     | 10.0.0.5    |
+|Web 2      | No     | 10.0.0.7    |
 
 Ansible was used to automate configuration of the ELK machine. No configuration was performed manually, which is advantageous because...
 
